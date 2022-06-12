@@ -11,7 +11,7 @@ const ImageWrapper = styled.div`
 const EmbedWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 4rem;
+  margin: 4rem 2rem;
 
   & > * {
     margin: 0 auto;
@@ -19,6 +19,7 @@ const EmbedWrapper = styled.div`
   }
 
   @media (min-width: 992px) {
+    margin: 0 auto;
     flex-direction: row;
 
     & > * {

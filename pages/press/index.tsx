@@ -5,10 +5,9 @@ import styled from "styled-components";
 import PaperPanel from "../../components/PaperPanel";
 
 const PressWrapper = styled.div`
-  @media (min-width: 768px) {
-    margin: 0 auto;
-    max-width: 80%;
-  }
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  max-width: 80%;
 `
 
 const StickerRow = styled.div`

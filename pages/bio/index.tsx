@@ -8,6 +8,10 @@ const BioWrapper = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 1rem;
+  margin: 0 2rem;
+  @media (min-width: 768px) {
+    margin: 0 auto;
+  }
   @media (min-width: 992px) {
     flex-direction: row;
     min-width: fit-content;
