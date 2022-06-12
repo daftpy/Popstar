@@ -13,7 +13,6 @@ const Brand = styled.div`
   min-height: 150px;
   text-align: center;
   padding-top: 2rem;
-  transform: rotate(3deg);
 
   @media (min-width: 768px) {
     margin-left: -2rem;
