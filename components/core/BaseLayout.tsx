@@ -20,7 +20,7 @@ const Container = styled.div`
   font-family: 'Crete Round', serif;
 `
 const MainContent = styled.div`
-  margin-top: 4rem;
+  margin-top: 2rem;
 
   @media (min-width: 768px) {
     padding: 0 2rem;

@@ -9,7 +9,7 @@ const NavWrapper = styled.div`
     justify-content: space-around;
     align-items: center;
     background: url('/resources/navbar/glitter_bg.png');
-    padding: 1.5rem;
+    padding: 1rem;
     margin: 0 2rem;
   }
 `
