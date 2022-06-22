@@ -49,8 +49,8 @@ const Navbar: React.FC = () => {
         width={85}
         height={91}
         background="/resources/navbar/video_bg.png"
-        text="Video"
-        link="/video"
+        text="Videos"
+        link="/videos"
       />
       <NavItem
         width={85}
