@@ -10,11 +10,16 @@ const Wrapper = styled.div`
 `
 
 const VideoWrapper = styled.div`
+  margin: 0 auto;
   margin-bottom: 3rem;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
 
-  :nth-child(even) {
-    margin-left: 2rem;
+
+  @media (min-width: 1200px) {
+    :nth-child(even) {
+      margin-left: 2rem;
+    }
   }
 
   iframe {
