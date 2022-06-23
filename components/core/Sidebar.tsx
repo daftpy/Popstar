@@ -59,7 +59,7 @@ const Sidebar: React.FC<SidebarProps> = ({ visible }) => {
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="/videos">
             <a>
               Videos
             </a>

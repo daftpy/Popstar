@@ -48,18 +48,16 @@ const Bio: NextPage = () => {
         <PaperPanel>
           <h1>Bio</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Quisque molestie sit amet tortor sit amet fringilla. 
-            Quisque auctor ornare rutrum. Ut vitae orci non sem 
-            lobortis lobortis et nec nunc. Integer mollis iaculis 
-            neque, a. 
+            Samuel Wilton hails from the mid-west. Dog however is 
+            all west coast sensibilities and star power. Starting 
+            his musical journey at 14. He produced beats under the 
+            moniker, dogdick. As time passed his sound and persona 
+            matured.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Quisque molestie sit amet tortor sit amet fringilla. 
-            Quisque auctor ornare rutrum. Ut vitae orci non sem 
-            lobortis lobortis et nec nunc. Integer mollis iaculis 
-            neque, a. 
+            Not quite Rap. Not quite Pop. Dog defies easy labels. 
+            One constant remains, Dog’s music connects with his 
+            audience on an intimate level.
           </p>
           <h2 style={{marginTop: "3rem"}}>Social</h2>
           <p>
