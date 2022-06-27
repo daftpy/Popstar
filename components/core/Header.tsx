@@ -2,7 +2,7 @@ import Link from "next/link";
 import styled from "styled-components";
 
 const Brand = styled.div`
-  margin-left: -4rem;
+  margin-left: -2rem;
   margin-top: -3rem;
   font-weight: bold;
   font-size: 4rem;
@@ -13,10 +13,6 @@ const Brand = styled.div`
   min-height: 150px;
   text-align: center;
   padding-top: 2rem;
-
-  @media (min-width: 768px) {
-    margin-left: -2rem;
-  }
 `
 const Rotation = styled.div`
   transform: rotate(-16deg);

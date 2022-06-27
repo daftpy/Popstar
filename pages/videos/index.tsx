@@ -1,8 +1,16 @@
 import { NextPage } from "next";
 import BaseLayout from "../../components/core/BaseLayout";
 import styled from "styled-components";
+import PaperPanel from "../../components/PaperPanel";
 
 const Wrapper = styled.div`
+  margin: 0 1.5rem;
+  @media (min-width: 768px) {
+    margin: 0 auto;
+  }
+`
+
+const ContentWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -13,7 +21,7 @@ const VideoWrapper = styled.div`
   margin: 0 auto;
   margin-bottom: 3rem;
   width: 100%;
-  max-width: 500px;
+  max-width: 425px;
 
 
   @media (min-width: 1200px) {
@@ -24,7 +32,7 @@ const VideoWrapper = styled.div`
 
   iframe {
     width:100%;
-    height:300px;
+    height:250px;
   }
   fieldset, legend {
       margin:0;
@@ -37,22 +45,26 @@ const VideoWrapper = styled.div`
 const Videos: NextPage = () => {
   return (
     <BaseLayout>
-      <main>
-        <Wrapper>
-          <VideoWrapper>
-            <iframe src="https://www.youtube.com/embed/0eyUP1-ETIQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </VideoWrapper>
-          <VideoWrapper>
-            <iframe src="https://www.youtube.com/embed/GWd6cDBJ158" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </VideoWrapper>
-          <VideoWrapper>
-            <iframe src="https://www.youtube.com/embed/Vnuq0O1SMA4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </VideoWrapper>
-          <VideoWrapper>
-          <iframe src="https://www.youtube.com/embed/nB1iHB9yn5k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          </VideoWrapper>
-        </Wrapper>
-      </main>
+      <Wrapper>
+        <PaperPanel>
+          <main>
+            <ContentWrapper>
+              <VideoWrapper>
+                <iframe src="https://www.youtube.com/embed/0eyUP1-ETIQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </VideoWrapper>
+              <VideoWrapper>
+                <iframe src="https://www.youtube.com/embed/GWd6cDBJ158" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </VideoWrapper>
+              <VideoWrapper>
+                <iframe src="https://www.youtube.com/embed/Vnuq0O1SMA4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </VideoWrapper>
+              <VideoWrapper>
+              <iframe src="https://www.youtube.com/embed/nB1iHB9yn5k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </VideoWrapper>
+            </ContentWrapper>
+          </main>
+        </PaperPanel>
+      </Wrapper>
     </BaseLayout>
   )
 }
