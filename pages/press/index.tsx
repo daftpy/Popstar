@@ -50,10 +50,10 @@ const Press: NextPage = ({pressData}: any) => {
       <PressWrapper>
         {pressPages.map((pressSeries: any) => {
           return (
-            <StickerPanel>
+            <StickerPanel key={pressSeries}>
               {pressSeries.map((pressRelease:PressRelease) => {
                 return (
-                  <Publication>
+                  <Publication key={pressRelease.publication+pressRelease.date.toString()}>
                     <PublicationHeader>{pressRelease.publication}</PublicationHeader>
                     <a href={pressRelease.link}>{pressRelease.link}</a>
                     <p>{pressRelease.date.toString()}</p>
