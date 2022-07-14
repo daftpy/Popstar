@@ -12,6 +12,17 @@ const StickerRow = styled.div`
   align-items: center;
 `
 
+const StickerColumn = styled.div`
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+`
+
 const Content = styled.div`
   flex-grow: 1;
   text-align: center;
@@ -55,7 +66,7 @@ const StickerPanel: React.FC<IProps> = ({children}) => {
         />
       </StickerRow>
       <MiddleRow>
-        <div style={{display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center"}}>
+        <StickerColumn>
           <Image
             width={85}
             height={82}
@@ -80,12 +91,12 @@ const StickerPanel: React.FC<IProps> = ({children}) => {
             layout="fixed"
             src="/resources/press/heart_purple.png"
           />
-        </div>
+        </StickerColumn>
         <Content>
           <h1>Press Releases</h1>
             {children}
         </Content>
-        <div style={{display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center"}}>
+        <StickerColumn>
           <Image
             width={76}
             height={73}
@@ -110,7 +121,7 @@ const StickerPanel: React.FC<IProps> = ({children}) => {
             layout="fixed"
             src="/resources/press/peace_purple.png"
           />
-        </div>
+        </StickerColumn>
       </MiddleRow>
       <StickerRow>
         <Image
