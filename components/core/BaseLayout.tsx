@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useState } from 'react';
 
 import styled from 'styled-components';
@@ -31,6 +32,11 @@ const BaseLayout: React.FC<Props> = ({children, home}) => {
   const [sidebarVis, toggleSidebarVis] = useState<Boolean>(false);
   return (
     <Background>
+      <Head>
+        <title>Dog</title>
+        <meta name="description" content="The official website for the artist Dog. Keep up to date on tours, new music videos, merch, and more." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Sidebar visible={ sidebarVis } />
       <Container>
         <Header visibility={ sidebarVis } toggleSidebar={ toggleSidebarVis } />

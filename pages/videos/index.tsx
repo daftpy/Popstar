@@ -50,6 +50,9 @@ const Videos: NextPage = () => {
           <main>
             <ContentWrapper>
               <VideoWrapper>
+                <iframe src="https://www.youtube.com/embed/7je4uPFoy8I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </VideoWrapper>
+              <VideoWrapper>
                 <iframe src="https://www.youtube.com/embed/0eyUP1-ETIQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </VideoWrapper>
               <VideoWrapper>
@@ -59,7 +62,7 @@ const Videos: NextPage = () => {
                 <iframe src="https://www.youtube.com/embed/Vnuq0O1SMA4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </VideoWrapper>
               <VideoWrapper>
-              <iframe src="https://www.youtube.com/embed/nB1iHB9yn5k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe src="https://www.youtube.com/embed/nB1iHB9yn5k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </VideoWrapper>
             </ContentWrapper>
           </main>

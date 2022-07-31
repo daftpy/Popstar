@@ -35,6 +35,9 @@ const Tour: NextPage = () => {
   return (
     <BaseLayout>
       <Background>
+          <p style={{textAlign: 'center', color: 'white', fontSize: '1.5rem'}}>
+            For bookings contact ham@lowsarecords.com
+          </p>
         <TourWrapper>
           <TourDate>May 2nd</TourDate>
           <TourTickets>TICKETS</TourTickets>
