@@ -22,7 +22,7 @@ const TourTickets = styled.div`
 `
 
 const Background = styled.div`
-  min-height: 100%;
+  min-height: 100vh;
   padding: 3rem 0;
   background-image: url('resources/tour/baggies.png'), url('resources/tour/bears.png');
   background-position: left bottom, right top;
@@ -38,7 +38,7 @@ const Tour: NextPage = () => {
           <p style={{textAlign: 'center', color: 'white', fontSize: '1.5rem'}}>
             For bookings contact ham@lowsarecords.com
           </p>
-        <TourWrapper>
+        {/* <TourWrapper>
           <TourDate>May 2nd</TourDate>
           <TourTickets>TICKETS</TourTickets>
         </TourWrapper>
@@ -49,7 +49,7 @@ const Tour: NextPage = () => {
         <TourWrapper>
           <TourDate>May 4th</TourDate>
           <TourTickets>TICKETS</TourTickets>
-        </TourWrapper>
+        </TourWrapper> */}
       </Background>
     </BaseLayout>
   )
