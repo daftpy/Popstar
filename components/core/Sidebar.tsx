@@ -66,7 +66,7 @@ const Sidebar: React.FC<SidebarProps> = ({ visible }) => {
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="https://dogpopstar.myshopify.com">
             <a>
               Shop
             </a>

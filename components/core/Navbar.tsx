@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
         height={91}
         background="/resources/navbar/shop_bg.png"
         text="Shop"
-        link="/shop"
+        link="https://dogpopstar.myshopify.com"
       />
     </NavWrapper>
   )
