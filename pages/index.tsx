@@ -12,6 +12,7 @@ const Wrapper = styled.div`
   background: url('/resources/navbar/glitter_bg.png'); 
   width: fit-content;
   margin: 5rem 2rem;
+  padding: 1.5rem;
   @media (min-width: 768px) {
     margin: 5rem auto;
   }
@@ -19,7 +20,6 @@ const Wrapper = styled.div`
 
 const SocialWrapper = styled.div`
   text-align: center;
-  color: #FEFEFE;
   padding: 1rem;
 `
 
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
     <BaseLayout>
       <main>
         <Wrapper>
-          <Image height={825} width={900} src="/resources/photos/monster_art.png" />
+          <Image height={825} width={900} src="/resources/photos/cover_photo_good_boy.jpg" />
         </Wrapper>
         <SocialWrapper>
         <h2 style={{marginTop: "3rem"}}>Social</h2>

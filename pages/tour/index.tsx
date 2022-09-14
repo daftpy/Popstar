@@ -8,7 +8,7 @@ const TourWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   font-size: 1.8rem;
-  color: #FEFEFE;
+  // color: #FEFEFE;
   min-width: 100%;
   flex-direction: column;
 
@@ -49,7 +49,7 @@ const Tour: NextPage = () => {
   return (
     <BaseLayout>
       <Background>
-          <p style={{textAlign: 'center', color: 'white', fontSize: '1.5rem', marginBottom: '3rem'}}>
+          <p style={{textAlign: 'center', fontSize: '1.5rem', marginBottom: '3rem'}}>
             For bookings contact ham@lowsarecords.com
           </p>
           <Link href="https://themoroccan.com/event/yards4le-ezra-kaden-jomie-hamilton/">

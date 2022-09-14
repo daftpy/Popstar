@@ -8,15 +8,15 @@ export default createGlobalStyle`
         font-family: 'Crete Round', serif;
         font-size: 16px;
         min-height: 100vh;
-        background: url('resources/maroon_bg.jpg') repeat-y;
+        background: url('resources/paper/white_wall.webp') repeat;
     }
 
     a {
-    color: inherit;
-    text-decoration: none;
+        color: inherit;
+        text-decoration: none;
     }
 
     * {
-    box-sizing: border-box;
+        box-sizing: border-box;
     }
 `
