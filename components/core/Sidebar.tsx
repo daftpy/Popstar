@@ -10,7 +10,8 @@ const SidebarNav = styled.div<SidebarProps>`
   top: 0;
   left: 0;
   padding: 4em 6em;
-  background: #5E1124;
+  // background: #5E1124;
+  background: #333333;
   height: 100vh;
   z-index: 1;
   display: ${props => props.visible ? "block" : "none"}
