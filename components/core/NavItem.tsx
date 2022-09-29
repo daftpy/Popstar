@@ -22,7 +22,7 @@ const Item = styled.div<ItemProps>`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Water Brush', cursive;
+  font-family: 'Pinyon Script', cursive;
   font-weight: bold;
   font-size: 1.5rem;
 `

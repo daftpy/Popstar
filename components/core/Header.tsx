@@ -2,25 +2,20 @@ import Link from "next/link";
 import styled from "styled-components";
 
 const Brand = styled.div`
-  margin-left: -2rem;
-  margin-top: -3rem;
   font-weight: bold;
   font-size: 4rem;
   color: rgb(51 65 85); 
-  background: url('resources/tape_bg.png') no-repeat;
-  font-family: 'Water Brush', cursive;
+  // background: url('resources/tape_bg.png') no-repeat;
+  font-family: 'Pinyon Script', cursive;
   min-width: 364px;
-  min-height: 150px;
-  text-align: center;
-  padding-top: 2rem;
 `
 const Rotation = styled.div`
-  transform: rotate(-16deg);
+  // transform: rotate(-16deg);
 `
 const HeaderWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
   align-items: center;
 `
 const Menu = styled.div`

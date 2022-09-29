@@ -2,7 +2,11 @@ import { NextPage } from "next";
 import BaseLayout from "../../components/core/BaseLayout";
 import styled from "styled-components";
 import { PressRelease, getSortedPress } from "../../lib/press";
-import StickerPanel from "../../components/StickerPanel";
+
+const PressPanel = styled.div`
+  text-align: center;
+  border-bottom: 1px solid #e3e3e3;
+`
 
 const PressWrapper = styled.div`
   margin: 0 auto;
@@ -50,7 +54,7 @@ const Press: NextPage = ({pressData}: any) => {
       <PressWrapper>
         {pressPages.map((pressSeries: any) => {
           return (
-            <StickerPanel key={pressSeries}>
+            <PressPanel key={pressSeries}>
               {pressSeries.map((pressRelease:PressRelease) => {
                 return (
                   <Publication key={pressRelease.publication+pressRelease.date.toString()}>
@@ -60,7 +64,7 @@ const Press: NextPage = ({pressData}: any) => {
                   </Publication>
                 )
               })}
-            </StickerPanel>
+            </PressPanel>
           )
         })}
       </PressWrapper>

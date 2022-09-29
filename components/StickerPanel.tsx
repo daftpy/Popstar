@@ -26,7 +26,7 @@ const StickerColumn = styled.div`
 const Content = styled.div`
   flex-grow: 1;
   text-align: center;
-  font-family: 'Water Brush', cursive;
+  font-family: 'Pinyon Script', cursive;
   overflow: hidden;
   white-space: nowrap;
 

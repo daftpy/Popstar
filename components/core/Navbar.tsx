@@ -6,9 +6,9 @@ const NavWrapper = styled.div`
 
   @media (min-width: 768px) {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background: url('/resources/navbar/glitter_bg.png');
+    // background: url('/resources/navbar/glitter_bg.png');
     padding: 1rem;
     margin: 0 2rem;
   }
@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
         link="/music"
       />
       <NavItem
-        width={91}
+        width={98}
         height={91}
         background="/resources/navbar/press_bg.png"
         text="Press"

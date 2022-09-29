@@ -19,7 +19,7 @@ const TourWrapper = styled.div`
 `
 
 const TourDate = styled.div`
-  font-family: "Water Brush", cursive;
+  font-family: "Pinyon Script", cursive;
 `
 
 const TourTickets = styled.div`
@@ -52,7 +52,7 @@ const Tour: NextPage = () => {
           <p style={{textAlign: 'center', fontSize: '1.5rem', marginBottom: '3rem'}}>
             For bookings contact ham@lowsarecords.com
           </p>
-          <Link href="https://themoroccan.com/event/yards4le-ezra-kaden-jomie-hamilton/">
+          {/* <Link href="https://themoroccan.com/event/yards4le-ezra-kaden-jomie-hamilton/">
             <a>
               <TourWrapper>
                 <TourInfo>
@@ -64,15 +64,7 @@ const Tour: NextPage = () => {
                 </TourTickets>
               </TourWrapper>
             </a>
-          </Link>
-        {/* <TourWrapper>
-          <TourDate>May 3rd</TourDate>
-          <TourTickets>TICKETS</TourTickets>
-        </TourWrapper>
-        <TourWrapper>
-          <TourDate>May 4th</TourDate>
-          <TourTickets>TICKETS</TourTickets>
-        </TourWrapper> */}
+          </Link> */}
       </Background>
     </BaseLayout>
   )

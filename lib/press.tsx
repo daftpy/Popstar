@@ -19,8 +19,9 @@ export function getSortedPress(): PressRelease[] {
             results.push(release);
         }
       }
+    console.log('results', results)
     results = results.sort(function(a: any, b: any) {
-        return b.date - a.date;
-    }).reverse();
+        return new Date(b.date).valueOf() - new Date(a.date).valueOf();
+    });
     return results;
 }

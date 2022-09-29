@@ -9,7 +9,7 @@ import Link from 'next/link'
 const Wrapper = styled.div`
   margin: 0 auto;
   border-radius: 2px;
-  background: url('/resources/navbar/glitter_bg.png'); 
+  // background: url('/resources/navbar/glitter_bg.png'); 
   width: fit-content;
   margin: 5rem 2rem;
   padding: 1.5rem;
@@ -18,9 +18,14 @@ const Wrapper = styled.div`
   }
 `
 
+const Presave = styled.h1`
+  text-align: center;
+  font-family: 'Pinyon Script', cursive;
+`
+
 const SocialWrapper = styled.div`
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 1rem 3.5rem 1rem;
 `
 
 const LinkWrapper = styled.div`
@@ -33,8 +38,13 @@ const Home: NextPage = () => {
     <BaseLayout>
       <main>
         <Wrapper>
-          <Image height={825} width={900} src="/resources/photos/cover_photo_good_boy.jpg" />
+          <Image height={675} width={750} src="/resources/photos/cover_photo_good_boy.jpg" />
         </Wrapper>
+        <Presave>
+          <Link href="https://orcd.co/goodboy_">
+            <a>Presave Good Boy</a>
+          </Link>
+        </Presave>
         <SocialWrapper>
         <h2 style={{marginTop: "3rem"}}>Social</h2>
           <LinkWrapper>
