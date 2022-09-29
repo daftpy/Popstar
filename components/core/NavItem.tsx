@@ -16,15 +16,15 @@ interface ItemProps {
 }
 
 const Item = styled.div<ItemProps>`
-  background: url(${ props => props.background }) no-repeat;
-  height: ${ props=> props.height }px;
-  width: ${ props => props.width }px;
+  // background: url(${ props => props.background }) no-repeat;
+  // height: ${ props=> props.height }px;
+  // width: ${ props => props.width }px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: 'Pinyon Script', cursive;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 `
 
 const NavItem: React.FC<Props> = ({ background, width, height, text, link }) => {

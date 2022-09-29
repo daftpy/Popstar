@@ -35,6 +35,7 @@ const BaseLayout: React.FC<Props> = ({children, home}) => {
       <Head>
         <title>Dog</title>
         <meta name="description" content="The official website for the artist Dog. Keep up to date on tours, new music videos, merch, and more." />
+        <meta property="og:image" content="/resources/photos/cover_photo_good_boy.jpg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Sidebar visible={ sidebarVis } />

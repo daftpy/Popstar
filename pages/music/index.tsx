@@ -6,7 +6,7 @@ import Image from "next/image";
 const ImageWrapper = styled.div`
   margin: 0 auto;
   width: fit-content;
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 3rem 0;
 `
 
 const EmbedWrapper = styled.div`
@@ -56,7 +56,7 @@ const Music: NextPage = () => {
         <Image
           src="/resources/photos/cover_photo_good_boy.jpg"
           width={600}
-          height={600}
+          height={525}
         />
       </ImageWrapper>
       <EmbedWrapper>

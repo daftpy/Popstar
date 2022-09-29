@@ -38,11 +38,15 @@ const Home: NextPage = () => {
     <BaseLayout>
       <main>
         <Wrapper>
-          <Image height={675} width={750} src="/resources/photos/cover_photo_good_boy.jpg" />
+          <Link href="https://orcd.co/goodboy">
+            <a>
+              <Image height={675} width={750} src="/resources/photos/cover_photo_good_boy.jpg" />
+            </a>
+          </Link>
         </Wrapper>
         <Presave>
           <Link href="https://orcd.co/goodboy_">
-            <a>Presave Good Boy</a>
+            <a>Good Boy Out Now</a>
           </Link>
         </Presave>
         <SocialWrapper>
