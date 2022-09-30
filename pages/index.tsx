@@ -21,6 +21,7 @@ const Wrapper = styled.div`
 const Presave = styled.h1`
   text-align: center;
   font-family: 'Pinyon Script', cursive;
+  font-size: 3rem;
 `
 
 const SocialWrapper = styled.div`

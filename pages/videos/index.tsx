@@ -50,6 +50,9 @@ const Videos: NextPage = () => {
           <main>
             <ContentWrapper>
               <VideoWrapper>
+                <iframe src="https://www.youtube.com/embed/iN5ktLJGe6M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </VideoWrapper>
+              <VideoWrapper>
                 <iframe src="https://www.youtube.com/embed/7je4uPFoy8I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </VideoWrapper>
               <VideoWrapper>
@@ -71,5 +74,7 @@ const Videos: NextPage = () => {
     </BaseLayout>
   )
 }
+
+<iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 export default Videos;
